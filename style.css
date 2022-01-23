@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(240.99deg, #D20606 0%, #7B05A5 100%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.nav{
+    width: 75%;
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.call-action{
+    background: #000;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.about{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.about p{
+    font-size: 12px;
+    margin: 15px 0;
+}
+
+.about h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.subscribe{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 5px 5px 5px 10px;
+    margin: 30px 0 60px 0;
+}
+
+.subscribe .email{
+    color: #000;
+    font-size: 16px;
+}
+
+.subscribe .call-action{
+    background: #000;
+    padding: 0 22px;
+    color: #fff;
+    border-radius: 20px;
+
+} 
+
+.subscribe .call-action p{
+    font-size: 16px;
+}
+
+.cooking{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.cooking img{
+    width: 600px;
+    margin-top: -100px;
+}
+
+.access{
+    display: flex;
+    margin: 30px auto;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    text-align: center;
+    margin-bottom: 100px;  
+}
+
+.access h2{
+    font-size: 30px;
+}
+
+.g-p{
+    font-size: 14px;
+    margin: 20px;
+    color: #ada9a9;
+}
+
+.join-box{
+    background-color: #000;
+    padding: 50px 0;
+
+}
+
+.join{   
+    display: flex;
+    margin: 30px auto;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    text-align: center;
+    margin-bottom: 100px;  
+   
+}
+
+.g-pp{
+    width: 40%;
+    text-align: center;
+    line-height: 17px;
+}
+
+.join .subscribe{
+    padding: 15px;
+}
+
+.join .call-action{
+    background: #000;
+    padding: 0 22px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.join h2{
+    font-size: 30px;
+    color: #fff;
+}
+
+.items-box{
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+}
+
+.item{
+    margin-right: 45px;
+}
+
+.item h3{
+    margin-bottom: 15px;
+}
+
+.item p{
+    font-size: 14px;
+    color: #ada9a9;
+}
+
+.lists-box{
+    background-color: rgb(252, 249, 249);
+    padding: 100px 0;
+}
+
+.lists{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.prov-1 h3{
+    color: rgb(60, 60, 216);
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.prov-1 p{
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #ada9a9;
+    text-decoration: underline;
+}
+
+.prov-2 h3,
+.prov-3 h3,
+.prov-4 h3
+{
+    margin-bottom: 20px;
+}
+
+.final{
+    width: 50%;
+    margin-left: 38%;
+    padding: 0 0 150px 0;
+}
+
+.terms-privacy{
+    display: flex;
+    margin: 30px 0;
+    font-weight: bold;
+}
+
+.terms-privacy p{
+    margin-right: 35px;
+}
+
+.socials{
+    margin-bottom: 30px;
+}
+
+.socials i{
+    color: rgb(60, 60, 216);
+    margin-right: 30px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.disclaimer .p-1{
+    font-weight: bold;
+    margin: 10px 0 20px 0;
+}
+
+.disclaimer .p-2{
+    color: #ada9a9;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .intro{
+        width: 100%;
+    }
+
+    .nav{
+        width: 80%;
+    }
+
+    .about{
+        width: 100%;
+    }
+
+    .about h1{
+        font-size: 40px;
+    }
+
+    .subscribe{
+        width: 80%;
+    }
+
+    .cooking img{
+        width: 80%;
+    }
+
+    .access{
+        width: 60%;
+    }
+
+    .access h2{
+        width: 90%;
+    }
+
+    .g-p{
+        font-size: 16px;
+        width: 95%;
+    }
+    
+    .g-pp{
+        font-size: 16%;
+    }
+
+    .join-box{
+    padding: 30px 0;
+
+    }
+
+    .items-box{
+        flex-direction: column;
+    }
+
+    .item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item h3{
+        text-align: center;
+    }
+
+    .item p{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .lists{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .prov-1,.prov-2{
+        margin-bottom: 30px;
+    }
+
+    .final{
+        width: 80%;
+        margin-left: 0;
+        padding: 20px 20px 50px 20px;
+    }
+
+    .disclaimer .p-2{
+        font-size: 16px;
+    }
+   
+    
+}
+
